@@ -1,6 +1,8 @@
 # Yocs
 Web Script URL Shortener Without Database MYSQL
 
+<img src="https://raw.githubusercontent.com/neoxr/Yocs/master/ss.png" width="100%">
+
 ## Configuration
 First you have to change the config file, you can find it in <a href="https://github.com/neoxr/Yocs/blob/master/vendor/helper/config.php">here</a>.
 
