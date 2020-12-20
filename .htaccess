@@ -1,0 +1,15 @@
+ErrorDocument 404 /404.php
+ErrorDocument 402 /404.php
+ErrorDocument 403 /404.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /404.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase / 
+RewriteRule ^$ /index.php [QSA,L]
+RewriteRule ^([A-Z-a-z-0-9]+)?$ /index.php?code=$1 [QSA,L]
+RewriteRule ^index.html?$ /index.php [QSA,L]
+RewriteRule ^([A-Z-a-z-0-9]+)/s?$ /stat.php?code=$1 [QSA,L]
+Options All -Indexes
+</IfModule>
