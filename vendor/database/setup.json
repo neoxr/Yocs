@@ -1,0 +1,6 @@
+{
+	"name" : "Crop URL Shortener",
+	"desc" : "Cut your long URL in here!",
+	"keyword" : "url shortener, url cutter, bit.ly, goo.gl, s.id",
+	"ogimg" : "/vendor/static/images/logo.jpg"
+}

@@ -1,0 +1,27 @@
+/* TodJS (c) 2020
+	- https://github.com/neoxr/TodJS
+	- by Wildan Izzudin
+*/
+:root {
+	--background: #f2f3f4;
+	--shadow: 3px 3px 3px #dadada, -3px -3px 3px #fafafa;
+	--radius: 5px;
+	--info: #007BFF;
+	--danger: #DC3545;
+	--success: #1D9D73;
+	--warning: #FFC107; 
+	--love: #FE787A;
+	--status-color: #888;
+	--status-font: Aron;
+	--status-size: 14px;	
+	--status-transform: uppercase;
+	--message-color: #b3b3b3;
+	--message-font: Aron;
+	--message-size: 13px;	
+	--message-transform:;
+	--loader-color-1: var(--col-font);
+	--loader-color-2: var(--container-color);
+	--loader-speed: 1s; /* using (s) = second or (ms) = mili second */
+	--line-color-1: #AAA;
+	--line-color-2: #222;
+}
