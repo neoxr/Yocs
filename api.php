@@ -2,7 +2,7 @@
 error_reporting(0);
 require __DIR__.'/enc.php5';
 	switch (true) {
-    	case !empty($_GET['url']): $code = random(5); $url = $_GET['url'];
+    	case !empty($_POST['url']): $code = random(5); $url = $_POST['url'];
         switch (true) {
         	case filter_var($url, FILTER_VALIDATE_URL) !== false:
 			$data = json(__DIR__.'/vendor/database/'.db); 
